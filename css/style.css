@@ -11,48 +11,187 @@ body{
     font-size: 20px;
     background-color: #fff;
     color: #555;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
 /*REUSEABLE CODE*/
 .row{
-    max-width: 1140px;
+    max-width: 1340px;
     margin: 0 auto;
 }
 
-
-/*HEADERS*/
-h1{
-    font-size: 150%;
-    color:#fff;
-    text-transform: uppercase;
-    word-spacing: 25px;
-    letter-spacing: 5px;
-    text-shadow: 5px 5px 5px #555;
+section{
+    padding: 80px 0;
 }
 
+/*HEADERS*/
+h1,h2{
+    text-transform: uppercase;
+    
+    letter-spacing: 5px;
+    
+}
+
+h1{
+    font-size: 350%; 
+    color: #000;
+    font-family: 'Montserrat';
+    text-align: center;
+    word-spacing: 25px;
+    
+
+}
+h2{
+     color:#555;
+}
 /*TOP HEADER*/
 
 .pro-head{
-    background-image: url(img/photo-1461749280684-dccba630e2f6.jpg);
+    background-color: #d8d8d8;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 40vh;
+    height: 100vh;
+    overflow: hidden;
+    background-attachment: fixed;
         
 }
 
 .name-logo{
     position: absolute;
+    left: 50%;
+   
     top: 30%;
 }
 .img-logo{
     position: relative;
-    left: 40%;
-    height: 150px;
-    top: 250px; 
+    
+    height: 95%;
+    right: 120%;
+    top: 50px; 
 }
+.hr{
+    position: relative;
+    
+    left: 120%;
+    top: 410px;
+    color: brown
+        
+}
+
+
+/*ICON*/
+
+.icon{
+    position: relative;
+    top: 550px;
+    left: 950;
+    font-size: 200%;
+    
+
+}
+.icon a{
+    text-decoration: none;
+    color: #555;
+    opacity: 0.8;
+    padding: 10px;
+    
+    
+}
+.icon a:hover{
+    
+    opacity: 1;
+    
+    
+    
+}
+
+/*MAIN NAV*/
+
+.main-nav{
+    float:right;
+    
+}
+
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 25px;
+
+}
+
+.main-nav li a{
+    text-decoration: none;
+    color: #000; 
+    opacity: 0.5;
+    transform: scale(1);
+}
+
+.main-nav li a:hover{
+    
+    color: #000; 
+    opacity: 1;
+    transform: scale(1.08);
+}
+
+
+
+/*SECTION ABUOT ME*/
+
+
+.abaut-me{
+    
+    
+    
+    
+}
+
+.abaut-me p{
+    margin-top: 50px;
+    margin-right: 85px;
+    
+}
+
+.skills-first{
+    padding-top: 55px;
+}
+.skills-first li{
+
+    list-style: none;
+    display: inline-block;
+    font-size: 300%;
+    padding-right: 25px;
+}
+
+.icon-img li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 35px;
+    margin-top: 25px;
+}
+
+.icon-img li img{
+    height: 100px;
+    width: auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
