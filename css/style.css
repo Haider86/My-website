@@ -13,6 +13,7 @@ body{
     color: #555;
     font-family: 'Montserrat', sans-serif;
     
+    
 }
 
 /*REUSEABLE CODE*/
@@ -142,7 +143,7 @@ h2{
 
 .abaut-me{
     
-    
+    background-color: #fff
     
     
 }
@@ -167,29 +168,148 @@ h2{
 .icon-img li{
     list-style: none;
     display: inline-block;
-    padding-right: 35px;
+    padding-right: 45px;
     margin-top: 25px;
 }
 
 .icon-img li img{
     height: 100px;
     width: auto;
+    transform: scale(1);
+    margin: 5
+    
+    
+}
+
+.icon-img li img:hover{
+    height: 100px;
+    width: auto;
+    transform: scale(1.2);
+   
+    z-index: 9999;
+/*    border: 1px solid rgba(144, 144, 144, 0.38);*/
+/*    background-color: aliceblue;*/
+/*    box-shadow: 5px 5px 5px #555;*/
+/*    padding: 8px;*/
+/*    border-radius: 25px;*/
+/*    transform: rotateY(180deg);*/ 
+}
+
+
+/*SECTION WORK*/
+
+
+.section-work{
+    background-color: #d8d8d8;
+}
+
+.bro{
+    text-align: center;
+}
+.bro img {
+    opacity: 0.99;
+    transform: scale(1);
+    -webkit-transition: transform 1.5s, opacity 1.5s;
+    cursor: pointer;
+        
+    
+}
+
+.bro img:hover{
+    opacity: 1.2;
+    transform: scale(1.2);
     
 }
 
 
+.p{
+    padding-top: 35px;
+}
 
 
+/*RESUME*/
+
+.section-cv{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.65),#000),url(img/shutterstock-10338536170938-620x354.jpg);
+    background-size: cover
+}
+
+.hresume{
+    color: #ffffff;
+    text-align: center;
+    font-size: 250%;
+    text-shadow: 1px 0px 2px #555;
+}
+
+.resume img {
+    height: 700px;
+    margin-top: 50px ;
+    border: 1px solid rgba(103, 103, 103, 0.46);
+    box-shadow: 5px 2px 1px rgba(255, 255, 255, 0.08);
+    cursor: pointer;
+    
+        
+}
+
+.btn {
+    height: 50px;
+    width: 500px;
+    background-color: DodgerBlue;
+    border: none;
+    font-size: 100%;
+    color: #fff;
+    margin-top: 300px;
+}
+
+.btn:hover{
+    background-color: #1370cb;
+    cursor: pointer;
+}
+
+/*CONTACT ME*/
 
 
+.input-form{
+    margin-top: 70px;
+
+}
+
+.input-form input
+{
+    height: 45px;
+    width: 55%;
+    margin: 10px 300px;
+    border: 1px solid rgba(85, 85, 85, 0.26);
+    border-radius: 5px;
+    font-size: 100%;
+    padding-left: 10px;
+    font-family: inherit;
+    
+}
+
+.input-form textarea{
+    height:105px;
+    width: 55%;
+    margin: 10px 300px;
+    border: 1px solid rgba(85, 85, 85, 0.26);
+    border-radius: 5px;
+    font-size: 100%;
+    padding-left: 10px;
+    font-family: inherit;
+}
 
 
-
-
-
-
-
-
+.btn-massage{
+    height: 45px;
+    width: 200px;
+    background-color: orangered;
+    border: 1px solid  orangered;
+    border-radius: 25px;
+    color: #fff;
+    margin: 35px 550px;
+    cursor: pointer;
+    
+}
 
 
 
