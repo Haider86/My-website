@@ -143,7 +143,7 @@ h2{
 
 .abaut-me{
     
-    background-color: #fff
+    background-color: none;
     
     
 }
@@ -231,7 +231,8 @@ h2{
 
 .section-cv{
     background-image: linear-gradient(rgba(255, 255, 255, 0.65),#000),url(img/shutterstock-10338536170938-620x354.jpg);
-    background-size: cover
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .hresume{
@@ -309,6 +310,39 @@ h2{
     margin: 35px 550px;
     cursor: pointer;
     
+}
+
+
+
+/*FOOTER*/
+
+
+.footer-section{
+    background-color: #d8d8d8;
+    background-size: cover;
+    height: 20vh
+}
+
+
+.icon-footer{
+    font-size: 100%;
+    color: #555;
+    float: right;
+    margin-top: 45px
+}
+
+.icon-footer a{
+    color: #555;
+    padding-left: 35px;
+    
+}
+
+.p-footer{
+    margin: 45px 550px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    line-height: 22px;
+    color: #555;
 }
 
 
