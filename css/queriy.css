@@ -1,0 +1,127 @@
+@media only screen and (max-width:1200px){
+    
+    
+    html,
+    body{ font-size: 16px;}
+    .row{ max-width: 900px;}
+ section{ padding: 60px 0;}   
+    h1{font-size: 250%; 
+    word-spacing: 25px;}
+    
+    .name-logo{width: 90%;left: 255px;top:160px }
+    
+    
+    
+    .icon-img li img{ height: 50px;}.icon-img li img:hover{ transform: none;}
+    .browser-img{height: 400px;}
+    .bro img:hover {transform:none;}
+    .resume img {height: 500px;}
+    .btn { width: 300px; margin-left: 70px;}
+    .footer-section{height: 35vh;}
+    .p-footer{margin: 45px 350px;}
+    .input-form input,.input-form textarea{ width: 80%;margin: 10px 90px;}
+    .btn-massage{margin-left: 350px;}
+
+            
+
+    
+   
+
+}
+
+
+
+
+/*SMALL TABLET TO BIG TABLET:767 TO 1023*/
+@media only screen and (max-width:1020px){
+     html,
+    body{ font-size: 15px; overflow-x: hidden;}
+    .row{ max-width: 600px;}
+ section{ padding: 30px 0;}   
+    h1{font-size: 200%;}
+    .icon-img li img{ height: 40px;}.icon-img li img:hover{ transform: none;}
+    .browser-img{display: block; height: 250px;}
+    .icon-respo{display: inline-block; width: 150%; padding-left:-25px;}
+    .resume img {height: 350px; margin-top: 10px; margin-left:-120}
+    .btn { width: 200px; margin-left: 210px;margin-top: 410}
+    .footer-section{height: 20vh;}
+    .p-footer{margin: 35px 50px;}
+    .input-form input,.input-form textarea{ width: 100%;margin: 10px 0px;}
+    .btn-massage{margin-left: 250px;}
+    .icon-footer{font-size: 150%;}
+
+            
+
+}
+
+
+/*SMALL PHONE TO SMALL TABLET: 480px to 767px*/
+
+@media only screen and (max-width:767px){
+     html,
+    body{ font-size: 15px; overflow-x: hidden;}
+    .row{ max-width: 550px;}
+ section{ padding: 30px 15px;}   
+    h1{font-size: 150%;}
+    .hr{ font-size: 100%}
+    .name-logo{width: 90%;word-spacing: 1px; }
+    .img-logo{height: 500px;}
+    
+    .main-nav{display: none;}
+    .pro-head{height: 70vh;}
+    .browser-img{ height: 200px;}
+    
+    
+    .resume img { margin-top: 50px;}
+    .btn { width: 180px; margin-left: 166px;margin-top: 420}
+    .input-form input,.input-form textarea{ width: 100%;margin: 10px 0px;}
+    .btn-massage{margin-left: 120px; width: 150;
+    height: 35}
+    .icon-footer{font-size: 150%;}
+     
+}
+
+
+
+@media only screen and (max-width:479px){
+     html,
+    body{ font-size: 14px; overflow-x: hidden;}
+    .row{ max-width: 400px;}
+ section{ padding: 30px 15px;}   
+    h1{font-size: 150%;}
+    .hr{left: 25px;top: 150px;word-spacing:}
+    .name-logo{width: 100%;left: 1px;top:90px;word-spacing: 1px; }
+    .main-nav{display: none;}
+    .pro-head{height: 105vh; overflow-y: hidden;}
+    .browser-img{ margin-left: 55px;}
+    .icon-respo{ margin-top: 35px;}
+    
+    .resume img { margin-top: -450px; margin-left:45px}
+    .btn { width: 180px; margin-left: 85px;margin-top: 410}
+    .input-form input,.input-form textarea{ width: 100%;margin: 10px 0px;}
+    .btn-massage{margin-left: 120px; width: 150;
+    height: 35}
+    .icon-footer{font-size: 150%;}
+    
+}
+
+/*@media only screen and (max-height:630px){
+    
+    .img-logo{
+        height: 60%;
+        left: 20%;
+        top: 155px;}
+    .pro-head{height: 90vh;}
+     h1{font-size: 120%;}
+    .hr{left: 25px;top: 150px;word-spacing:}
+    .name-logo{width: 100%;left: 1px;top:80px;word-spacing: 1px; }
+    .icon{top:160px;left: 110;}
+}
+    
+    
+    
+    
+*/
+    
+    
+}

@@ -1,48 +1,61 @@
 <html>
     <head>
         <title>Haider Alsalih</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+<!--        <link rel="stylesheet" type="text/css" href="css/queriy.css" />-->
         <link rel="stylesheet" type="text/css" href="vendoes/grid.css" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,900" rel="stylesheet">
         <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://unpkg.com/ionicons@4.4.4/dist/css/ionicons.min.css" rel="stylesheet">
+
+        
     </head>
     
     <body>
         
 <!--HEADER & MAIN-NAV-->
         <header class="pro-head">
+            <nav>
             <div class="row">
+                 
                 <ul class="main-nav">
-                    <li><a href="#">HAIDER</a></li>
-                    <li><a href="#">MY WORK</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#about-skills">ABOUT ME</a></li>
+                    <li><a href="#myWork">MY WORK</a></li>
+                    <li><a href="#cv">CV</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    
                 </ul>
+                <a class="mobile-nav"><i class="icon ion-md-menu"></i></a>
             </div>
+            </nav>
             <div class="row">
                 <div class="col span-1-of-2">
                 
                     <h1 class="name-logo">HEllo,I'am<br>
                         haider alsalih</h1>
-                    <h3 class="hr">QA/Software testar, UI/UX designer & Frontent Developer. Sweden, Malmö </h3>
-                    <div class="icon">
+                    <h3 class="hr">QA/Software testar, UI/UX designer & Frontent Developer.<br>From Sweden, Malmö </h3> 
+                </div>
+            </div>
+            
+                 <div class="col span-1-of-2">   
+                    <img class="img-logo" src="img/42085911_311194976102479_5944961179842510848_n.png" />
+                </div>
+            
+                
+            <div class="iconm">
                        <a href="https://www.linkedin.com/in/haider-alsalih-59725254/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a> 
                         <a href="" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
                         <a  href="https://github.com/Haider86?tab=repositories" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
                     </div>
-                </div>
-                 <div class="col span-1-of-2">   
-                    <img class="img-logo" src="img/42085911_311194976102479_5944961179842510848_n.png" />
-                </div>
-            </div>
         </header>
         
         
         
         
 <!--SECTION MY WORK-->
-        <section class="section-adout">
+        <section id="about-skills" class="section-adout js--section-about">
             <div class="row">
                 <div class="col span-1-of-2 abaut-me">
                 <h2>About me</h2>
@@ -50,6 +63,7 @@
             
             </div>
             <div class="col span-1-of-2">
+                <div class="icon-respo">
                 <h2>Skills</h2>
                 
                 <ul class="icon-img">
@@ -76,11 +90,11 @@
                 </ul>
                 
             </div>
-            
+            </div>
             </div>
         </section>
         
-        <section class="section-work">
+        <section id="myWork" class="section-work">
             
             <div class="row ">
                 <h2>My work</h2>
@@ -89,18 +103,18 @@
             
             <div class="row bro brocss">
                 <div class="col span-1-of-2">
-                <img height="500px" src="img/bros/My_safari_template.png" />
+                <img class="browser-img" src="img/bros/My_safari_template.png" />
                 <p>AKKA GRILLEN a restuarant </p>
                 </div>
                 <div class="col span-1-of-2">
-               <a href="https://github.com/Haider86?tab=repositories" target="_blank"><img  height="500px" src="img/bros/My_safari_template.png" /></a>
+               <a ><img  class="browser-img" src="img/bros/My_safari_template.png" /></a>
                      <p>AKKA GRILLEN a restuarant </p>
             </div>
             </div>
         </section>
         
         
-        <section class="section-cv">
+        <section id="cv" class="section-cv">
             
             <div class="row">
                 <h2 class="hresume">Resume</h2> 
@@ -120,7 +134,7 @@
         </section>
         
         
-        <section class="row section-contact">
+        <section  id="contact" class="row section-contact">
             
             <div class="row">
                 <h1>contact me </h1>
@@ -161,7 +175,9 @@
         
         
     
-    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="vendoes/jquery.waypoints.min.js"></script>
     
     </body>
 
