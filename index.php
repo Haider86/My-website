@@ -142,30 +142,24 @@
                 <form method="post" action="mail.php" class="input-form">
                     <div class="row">
                         <?php
-                        if($_GET['success'] == 1){
-                            echo "<div class=\"form-messages success\">
-                            Thank your message has ben sent!
-                        </div>"
-                        }
-                        if($_GET['success'] == -1){
-                            echo "<div class=\"form-messages error\">
-                            Ooops! Something went wrong. Please try again!
-                        </div>"
-                        }
+                         if (isset($_GET['success'])) {    if ($_GET['success'] == 1) {        echo "<div class=\"form-messages success\">Thank you! Your message has been sent.</div>";    }    if ($_GET['success'] == -1) { echo "<div class=\"form-messages error\">Oops! Something went wrong, please try again.</div>";    }}
+                    
                         ?>
                         
-                        <input type="text" placeholder="*Your Name"  required />
+                        
+                        <input id="name" name="name" type="text" placeholder="*Your Name"  required />
                             
                     </div>
                     <div class="row">
-                        <input type="email" placeholder="*Your Email" required />
+                        <input id="email" name="email" type="email" placeholder="*Your Email" required />
                     </div>
                     <div class="row">
-                        <textarea placeholder="Your massage"></textarea>
+                        <textarea name="message" placeholder="Your massage"></textarea>
                     </div>
+                    <input class="btn-massage" type="submit" value="SEND MASSAGE" />
                 </form>
                 <div class="row">
-                    <input class="btn-massage" type="button" value="SEND MASSAGE" />
+                    
                 </div>
             </div>
         </section>
