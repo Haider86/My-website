@@ -15,8 +15,9 @@ body{
     
     
 }
-
+/*************************************/
 /*REUSEABLE CODE*/
+/*************************************/
 .row{
     max-width: 1140px;
     margin: 0 auto;
@@ -26,7 +27,10 @@ section{
     padding: 80px 0;
 }
 
+/*************************************/
 /*HEADERS*/
+/*************************************/
+
 h1,h2{
     text-transform: uppercase;
     
@@ -46,45 +50,46 @@ h1{
 h2{
      color:#555;
 }
+/*************************************/
 /*TOP HEADER*/
-
-.pro-head{
+/*************************************/
+header{
     background-color: #d8d8d8;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-/*    position: relative;*/
-    height: 100vh;
+    position: relative;
+    height: 1000px;
     overflow: hidden;        
 }
 
-.name-logo{
+.hero-text-box{
     position: absolute;
+    width: 640px;
+    top: 500px;
     left: 50%;
-    top: 30%;
+    -webkit-transform: translate(-50% ,-50%);
+            transform: translate(-50% ,-50%);
 }
-.img-logo{
-    height: 750;
-    float: left;
-    top: 160px;
-    height: 90%;
-}
-.hr{
-    position: absolute;
+.img-logo img{
     
-    left:50% ;
-    top: 50%;
-    color: brown       
+    position: absolute;
+    top: 210px;
+    left:180px;
+
+    height: 800px;
+   
+    
 }
 
-
+/*************************************/
 /*ICON*/
-
+/*************************************/
 .iconm{
     position:absolute;
     float: right;
-    top: 90%;
-    right: 5%;
+    top:710;
+    left: 60%;
     font-size: 200%;
 }
 .iconm  a{
@@ -102,9 +107,9 @@ h2{
     
     
 }
-
+/*************************************/
 /*MAIN NAV*/
-
+/*************************************/
 .main-nav{
     float:right;
 }
@@ -133,8 +138,9 @@ h2{
     color: #e62f2f; 
     
 }
-
+/*************************************/
 /*STICKY-NAV*/
+/*************************************/
 
 .sticky{
     position: fixed;
@@ -158,7 +164,9 @@ h2{
     
 }
 */
+/*************************************/
 /*MOBILE NAV*/
+/*************************************/
 
 .mobile-nav{
     float: right;
@@ -166,14 +174,14 @@ h2{
     font-size: 200%;
     cursor: pointer;
     display: none;
+    z-index: 9999;
     
 }
-.mobile-nav i {
-    font-size: 200%;
-}
 
 
+/*************************************/
 /*SECTION ABUOT ME*/
+/*************************************/
 .section-adout{overflow-x: hidden;}
 
 .abaut-me p{
@@ -213,9 +221,9 @@ h2{
 /*    transform: rotateY(180deg);*/ 
 }
 
-
+/*************************************/
 /*SECTION WORK*/
-
+/*************************************/
 
 .section-work{
     background-color: #d8d8d8;
@@ -232,18 +240,21 @@ h2{
     transform: scale(1);
     -webkit-transition: transform 1.5s, opacity 1.5s;
     cursor: pointer;
+    height: 500px;
         
     
 }
 
+/*
 .browser-img{
     height: 500px;
 }
+*/
 
 .bro img:hover{
     opacity: 1.2;
     -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    transform: scale(1.07);
     
 }
 
@@ -252,9 +263,9 @@ h2{
     padding-top: 35px;
 }
 
-
+/*************************************/
 /*RESUME*/
-
+/*************************************/
 .section-cv{
     width: auto;
     background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(255, 255, 255, 0.65)),to(#000)),url(img/shutterstock-10338536170938-620x354.jpg);
@@ -295,8 +306,9 @@ h2{
     background-color: #1370cb;
     cursor: pointer;
 }
-
+/*************************************/
 /*CONTACT ME*/
+/*************************************/
 
 .section-contact{overflow-x: hidden;}
 .input-form{
@@ -342,9 +354,9 @@ h2{
 }
 
 
-
+/*************************************/
 /*FOOTER*/
-
+/*************************************/
 
 .footer-section{
     background-color: #d8d8d8;
@@ -376,6 +388,13 @@ h2{
 }
 
 
+/*************************************/
+/*Animations*/
+/*************************************/
+
+.js--wp-1,.js--wp-2,.js--wp-3,.js--wp-4,.js--wp-5,.js--wp-6,.js--wp-7,.js--wp-8{opacity: 0;}
+
+.js--wp-1.animated,.js--wp-2.animated,.js--wp-3.animated,.js--wp-4.animated,.js--wp-5.animated,.js--wp-6.animated,.js--wp-7.animated,.js--wp-8.animated{opacity: 1;}
 
 
 

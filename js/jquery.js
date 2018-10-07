@@ -56,9 +56,52 @@ $('a[href*="#"]')
     $('.ja--mobile-nav').click(function(){
         var nav = $('.js--main--nav');
         nav.slideToggle(200);
-    })
+    });
     
+    
+    
+    
+    
+    $('.js--wp-1').waypoint(function(direction){
+        $('.js--wp-1').addClass('animated fadeInLeftBig');
+    }, {offset:'20%'
+       });
+ 
+    $('.js--wp-2').waypoint(function(direction){
+        $('.js--wp-2').addClass('animated fadeInRightBig');
+    }, {offset:'100%'
+       });
+ $('.js--wp-3').waypoint(function(direction){
+        $('.js--wp-3').addClass('animated bounceInRight');
+    }, {offset:'100%'
+       });
+    $('.js--wp-4').waypoint(function(direction){
+        $('.js--wp-4').addClass('animated lightSpeedIn');
+    }, {offset:'60%'
+       });
+    $('.js--wp-5').waypoint(function(direction){
+        $('.js--wp-5').addClass('animated zoomInUp');
+    }, {offset:'55%'
+       });
+    $('.js--wp-6').waypoint(function(direction){
+        $('.js--wp-6').addClass('animated flipInX');
+    }, {offset:'55%'
+       });
+    $('.js--wp-7').waypoint(function(direction){
+        $('.js--wp-7').addClass('animated slideInUp');
+    }, {offset:'35%'
+       });
+    $('.js--wp-8').waypoint(function(direction){
+        $('.js--wp-8').addClass('animated shake');
+    }, {offset:'35%'
+       });
+
 });
+
+
+
+/*ANIMATIONS ON SCROLL*/
+
 
 
 

@@ -6,14 +6,29 @@
     .row{ max-width: 900px;}
  section{ padding: 60px 0;}   
     h1{font-size: 250%; 
-    word-spacing: 25px;}
+    word-spacing: 12px;}
+     .hero-text-box{width: 390px;word-spacing: 1px; left: 50%;top: 380px;font-size: 80%; }
+    .iconm{top:520px; left: 60%}
     
-    .name-logo{width: 90%;left: 255px;top:160px }
+   
+    header{height: 800px;}
+    
+    
+    .img-logo img{
+    
+    
+    top: 250px;
+    left: 5px;
+    height: 550px;
+}
+    
+    
+    
     
     
     
     .icon-img li img{ height: 50px;}.icon-img li img:hover{ transform: none;}
-    .browser-img{height: 400px;}
+    .bro img{height: 400px;}
     .bro img:hover {transform:none;}
     .resume img {height: 500px;}
     .btn { width: 300px; margin-left: 70px;}
@@ -39,8 +54,24 @@
     .row{ max-width: 600px;}
  section{ padding: 30px 0;}   
     h1{font-size: 200%;}
+    .hero-text-box{width: 390px;word-spacing: 3px; left: 50%;top: 380px }
+    .iconm{top:520px; left: 60%}
+    
+   
+    header{height: 800px;}
+    
+    
+    .img-logo img{
+    
+    
+    top: 250px;
+    left: 5px;
+    height: 550px;
+}
+
+    
     .icon-img li img{ height: 40px;}.icon-img li img:hover{ transform: none;}
-    .browser-img{display: block; height: 250px;}
+    .bro img{display: block; height: 250px;}
     .icon-respo{display: inline-block; width: 150%; padding-left:-25px;}
     .resume img {height: 350px; margin-top: 10px; margin-left:-120}
     .btn { width: 200px; margin-left: 210px;margin-top: 410}
@@ -63,23 +94,33 @@
     .row{ max-width: 550px;}
  section{ padding: 30px 15px;} 
     .main-nav{display: none;}
-    .main-nav{float: left; margin-top: 15px;}
+    .main-nav{float: left; margin-top: 5px; }
     .main-nav li{display: block; margin:10px}
     .main-nav li a{display: block;}
     
-    h1{font-size: 150%;}
-    .hr{ font-size: 100%; top: 40%}
-    .name-logo{width: 90%;word-spacing: 1px; left: 30% }
-    .iconm{top:60%}
+    h1{font-size: 130%; word-spacing: 5px;}
+    .hero-text-box{width: 350px;word-spacing: 3px; left: 30%;top: 120px }
+    .iconm{top:220px; left: 40%}
     
    
-    .pro-head{height: 70vh;}
+    header{height: 800px;}
     .mobile-nav{display:inline-block;}
     
+    .img-logo img{
+    
+    
+    top: 250px;
+    left: 5px;
+    height: 550px;
+   
+    
+}
+
     
     
     
-    .browser-img{ height: 200px;}
+    
+    .bro img{ height: 200px;}
     
     
     .resume img { margin-top: 50px;}
@@ -93,22 +134,27 @@
 
 
 
-@media only screen and (max-width:479px){
-     html,
-    body{ font-size: 14px; overflow-x: hidden;}
+@media only screen and (max-width:519px){
+
     .row{ max-width: 400px;}
- section{ padding: 30px 15px;}   
-    h1{font-size: 150%;}
-    .hr{left: 25px; word-spacing:1px;}
-    .name-logo{width: 100%;word-spacing: 1px; }
+    section{ padding: 30px 15px;}   
+  
     
-    .pro-head{height: 80vh;}
-    .browser-img{ margin-left: 55px;}
+     header{height: 650px;}
+    
+    .hero-text-box{width: 290px;  top: 200px; font-size: 80%; left: 15%}
+    .img-logo img{top: 350px;
+    left: 95px;
+    height: 300px;   
+}
+    .iconm{top:300px; left: 30%}
+
+    
+    /*ABOUT ME SECTION*/
+    .bro img{ margin-left: 55px;}
     .icon-respo{ margin-top: 35px;}
-    .img-logo{top: 358px; left: 25px; height: 400px}
-    .hr{top:30%}
-    .name-logo{top:10%; left: 10%;}
-    .iconm{top:40%; left: 35%}
+
+    
     
     
     
@@ -142,4 +188,3 @@
 */
     
     
-}
