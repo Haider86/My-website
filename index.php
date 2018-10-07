@@ -139,15 +139,19 @@
             
             <div class="row" id="form">
                 <h1>contact me </h1>
-                <form class="input-form">
+                <form method="post" action="mail.php" class="input-form">
                     <div class="row">
                         <?php
-                        <div class="form-messages success">
+                        if($_GET['success'] == 1){
+                            echo "<div class=\"form-messages success\">
                             Thank your message has ben sent!
-                        </div>
-                        <div class="form-messages error">
+                        </div>"
+                        }
+                        if($_GET['success'] == -1){
+                            echo "<div class=\"form-messages error\">
                             Ooops! Something went wrong. Please try again!
-                        </div>
+                        </div>"
+                        }
                         ?>
                         
                         <input type="text" placeholder="*Your Name"  required />

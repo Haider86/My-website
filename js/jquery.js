@@ -88,12 +88,12 @@ $('a[href*="#"]')
     }, {offset:'55%'
        });
     $('.js--wp-7').waypoint(function(direction){
-        $('.js--wp-7').addClass('animated slideInUp');
-    }, {offset:'35%'
+        $('.js--wp-7').addClass('animated fadeInRightBig');
+    }, {offset:'55%'
        });
     $('.js--wp-8').waypoint(function(direction){
         $('.js--wp-8').addClass('animated shake');
-    }, {offset:'35%'
+    }, {offset:'55%'
        });
 
 });
