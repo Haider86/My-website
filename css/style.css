@@ -99,7 +99,8 @@ header{
 .iconm{
     position:absolute;
     float: right;
-    top:1710;
+/*    margin-top: 500px;*/
+    top:800px;
     left: 60%;
     font-size: 200%;
 }

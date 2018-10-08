@@ -126,7 +126,7 @@
                 <p>AKKA GRILLEN a restaurant, website for a restaurant in Trelleborg</p>
                 </div>
                 <div class="col span-1-of-2">
-               <a ><img  class="browser-img" src="img/bros/My_safari_template.png" alt="kaleel photografer" /></a>
+               <a href="http://alsalihns.se/akkagrillen/" ><img  class="browser-img" src="img/bros/My_safari_template.png" alt="kaleel photografer" /></a>
                      <p>Khaleel studio, a website for a photography </p>
             </div>
             </div>
