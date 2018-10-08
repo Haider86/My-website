@@ -80,7 +80,7 @@ $('a[href*="#"]')
     }, {offset:'60%'
        });
     $('.js--wp-5').waypoint(function(direction){
-        $('.js--wp-5').addClass('animated zoomInUp');
+        $('.js--wp-5').addClass('animated jackInTheBox');
     }, {offset:'55%'
        });
     $('.js--wp-6').waypoint(function(direction){

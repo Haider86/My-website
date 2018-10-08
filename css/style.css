@@ -26,6 +26,16 @@ body{
 section{
     padding: 80px 0;
 }
+span{
+    color: red;
+}
+
+/*
+p span{
+    text-align: center;
+    margin-left: 500px;
+}
+*/
 
 /*************************************/
 /*HEADERS*/
@@ -82,13 +92,14 @@ header{
     
 }
 
+
 /*************************************/
 /*ICON*/
 /*************************************/
 .iconm{
     position:absolute;
     float: right;
-    top:710;
+    top:1710;
     left: 60%;
     font-size: 200%;
 }
@@ -127,6 +138,7 @@ header{
 .main-nav li a{
     text-decoration: none;
     color: #000; 
+    
     opacity: 1;
     -webkit-transition: color .5s;
     transition: color .5s;
@@ -138,6 +150,16 @@ header{
     color: #e62f2f; 
     
 }
+.logo img{width: 140px;
+   
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-top: 15px;
+    cursor: pointer;
+    
+}
+
 /*************************************/
 /*STICKY-NAV*/
 /*************************************/
@@ -154,16 +176,20 @@ header{
 
 }
 
+.sticky .logo img {
+    height: 30px;
+}
 
 
-/*
+
+
 .sticky .main-nav li a{
-    color: #000; 
+     
     
     
     
 }
-*/
+
 /*************************************/
 /*MOBILE NAV*/
 /*************************************/
@@ -177,6 +203,14 @@ header{
     z-index: 9999;
     
 }
+
+.mobile-nav .main-nav li a{
+     
+    margin-left: 555px;
+    
+    
+}
+
 
 
 /*************************************/
@@ -381,7 +415,7 @@ header{
 
 
 .icon-footer{
-    font-size: 100%;
+    font-size: 150%;
     color: #555;
     float: right;
     margin-top: 45px
@@ -396,6 +430,7 @@ header{
 .p-footer{
     margin: 45px 550px;
     font-family: 'Open Sans', sans-serif;
+    width: 100%;
     font-size: 100%;
     line-height: 22px;
     color: #555;

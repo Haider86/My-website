@@ -99,8 +99,23 @@
     .main-nav li a{display: block;}
     
     h1{font-size: 130%; word-spacing: 5px;}
-    .hero-text-box{width: 350px;word-spacing: 3px; left: 30%;top: 120px }
-    .iconm{top:220px; left: 40%}
+    .hero-text-box{width: 350px;word-spacing: 3px; left: 30%;top: 190px }
+    .iconm{top:270px; left: 40%}
+    .logo img{width: 140px;
+   
+    height: 40px;
+    width: auto;
+    float: left;
+    margin-top: 25px;
+    cursor: pointer;
+    
+}
+    .mobile-nav{margin-top: 10px;}
+
+    .sticky .logo img {
+        height: 30px;
+        margin-top: 10px;}
+
     
    
     header{height: 800px;}
@@ -148,6 +163,12 @@
     height: 300px;   
 }
     .iconm{top:300px; left: 30%}
+    .mobile-nav{margin-top: 10px;}
+
+.sticky .logo img {
+    height: 30px;
+    margin-top: 10px;}
+
 
     
     /*ABOUT ME SECTION*/
@@ -165,7 +186,7 @@
     .input-form input,.input-form textarea{ width: 100%;margin: 10px 0px;}
     .btn-massage{margin-left: 120px; width: 150;
     height: 35}
-    .icon-footer{font-size: 150%;}
+    .icon-footer{font-size: 120%;}
     
 }
 
