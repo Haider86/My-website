@@ -95,6 +95,18 @@ $('a[href*="#"]')
         $('.js--wp-8').addClass('animated shake');
     }, {offset:'55%'
        });
+    
+    
+    
+    /*tooltip*/
+    
+    $('.tooltip').tooltipster({
+   animation: 'slide',
+   delay: 1000,
+   theme: 'tooltipster-punk',
+   trigger: 'click',
+        contentCloning: true
+});
 
 });
 

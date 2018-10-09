@@ -8,6 +8,9 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/queriy.css" />
         <link rel="stylesheet" type="text/css" href="vendoes/grid.css" />
+        <link rel="stylesheet" type="text/css" href="vendoes/css/tooltipster.bundle.min.css" />
+        <link rel="stylesheet" type="text/css" href="vendoes/css/themes/tooltipster-sideTip-shadow.min.css" />
+        <link rel="stylesheet" type="text/css" href="vendoes/css/themes/tooltipster-sideTip-punk.min.css" />
         <link rel="stylesheet" type="text/css" href="vendoes/animated.css" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,900" rel="stylesheet">
         <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
@@ -75,34 +78,126 @@
             <div class="col span-1-of-2 js--wp-4">
                 <div class="icon-respo ">
                 <h2>Skills</h2>
+                    <br /><br>
+                    <span>Click on icons to show skills level!</span>
                 
                 <ul class="icon-img">
-                    <li><img src="img/skills-icon/selenium-png-8.png" alt="selenium"></li>
-                    <li><img src="img/skills-icon/logo.png" alt="jenkins"></li>
-                    <li><img src="img/skills-icon/Jira-PBXDom.png" alt="jira"></li>
-                    <li><img src="img/skills-icon/Git_icon.svg.png" alt="git"></li>
+                   
+                    <!--selenium-->
+                    <li><img class="tooltip"  data-tooltip-content="#tooltip_content" src="img/skills-icon/selenium-png-8.png" alt="selenium">
+                        <div class="tooltip_templates">
+                            <span class="text-tip" id="tooltip_content">
+                                <strong>beginner<br><span class="stars"><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i></span></strong>
+                            </span>
+                        </div></li>
+                    <!--jenkins-->
+                    <li><img class="tooltip" data-tooltip-content="#tooltip_content1"  src="img/skills-icon/logo.png" alt="jenkins"><div class="tooltip_templates">
+                            <span class="text-tip" id="tooltip_content1">
+                                <strong>skilled<br><span class="stars"><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i></span></strong>
+                            </span>
+                        </div></li>
+                    <!--Jira-->
+                    <li><img class="tooltip"  data-tooltip-content="#tooltip_content2" src="img/skills-icon/Jira-PBXDom.png" alt="jira"><div class="tooltip_templates">
+                            <span class="text-tip" id="tooltip_content2">
+                                <strong>skilled<br><span class="stars"><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i></span></strong>
+                            </span>
+                        </div></li>
+                    <!--Git-->
+                    <li><img class="tooltip"  data-tooltip-content="#tooltip_content3" src="img/skills-icon/Git_icon.svg.png" alt="git"><div class="tooltip_templates">
+                            <span class="text-tip" id="tooltip_content3">
+                                <strong>Experienced<br><span class="stars"><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i></span></strong>
+                            </span>
+                        </div></li>
                 </ul>
                 
+                <ul class="icon-img">
+                    <!--CSS-->
+                    <li><img class="tooltip"  data-tooltip-content="#tooltip_content4"  src="img/skills-icon/HTML_Logo.png" alt="html"><div class="tooltip_templates">
+                            <span class="text-tip" id="tooltip_content4">
+                                <strong>Experienced<br><span class="stars"><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i></span></strong>
+                            </span>
+                        </div></li>
+                    <!--HTML-->
+                    <li><img class="tooltip"  data-tooltip-content="#tooltip_content5" src="img/skills-icon/css3.png" alt="css"><div class="tooltip_templates">
+                            <span class="text-tip" id="tooltip_content5">
+                                <strong>Experienced<br><span class="stars"><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i></span></strong>
+                            </span>
+                        </div></li>
+                    <!--JAVASCRIPT-->
+                    <li><img class="tooltip"  data-tooltip-content="#tooltip_content6" src="img/skills-icon/javascript_633988.png" alt="js"><div class="tooltip_templates">
+                            <span class="text-tip" id="tooltip_content6">
+                                <strong>Skilled<br><span class="stars"><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i></span></strong>
+                            </span>
+                        </div></li>
+                    <!--JQUERY-->
+                    <li><img class="tooltip"  data-tooltip-content="#tooltip_content7" src="img/skills-icon/JQuery_logo-512.png" alt="jquery"><div class="tooltip_templates">
+                            <span class="text-tip" id="tooltip_content7">
+                                <strong>Skilled<br><span class="stars"><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i></span></strong>
+                            </span>
+                        </div></li>
+                </ul>
                 
                 <ul class="icon-img">
+                    <!--PYTHON-->
+                    <li><img class="tooltip"  data-tooltip-content="#tooltip_content8" src="img/skills-icon/2000px-Python-logo-notext.svg.png" alt="python"><div class="tooltip_templates">
+                            <span class="text-tip" id="tooltip_content8">
+                                <strong>Skilled<br><span class="stars"><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i></span></strong>
+                            </span>
+                        </div></li>
+                    <!--C#-->
+                    <li><img class="tooltip"  data-tooltip-content="#tooltip_content9" src="img/skills-icon/csharp-bordered-turquoise.png" alt="c#"><div class="tooltip_templates">
+                            <span class="text-tip" id="tooltip_content9">
+                                <strong>Skilled<br><span class="stars"><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i></span></strong>
+                            </span>
+                        </div></li>
                     
-                    <li><img src="img/skills-icon/HTML_Logo.png" alt="html"></li>
-                    <li><img src="img/skills-icon/css3.png" alt="css"></li>
-                    <li><img src="img/skills-icon/javascript_633988.png" alt="js"></li>
-                    <li><img src="img/skills-icon/JQuery_logo-512.png" alt="jquery"></li>
-                </ul>
-                
-                <ul class="icon-img">
-                    <li><img src="img/skills-icon/2000px-Python-logo-notext.svg.png" alt="python"></li>
-                    <li><img src="img/skills-icon/csharp-bordered-turquoise.png" alt="c#"></li>
-                    <li><img src="img/skills-icon/sql-server-icon-png-7.png" alt="sql"></li>
-                    <li><img src="img/skills-icon/php-512.png" alt="php"></li>
+                     <!--SQL-->
+
+                    
+                    <li><img  class="tooltip"  data-tooltip-content="#tooltip_content10" src="img/skills-icon/sql-server-icon-png-7.png" alt="sql"><div class="tooltip_templates">
+                            <span class="text-tip" id="tooltip_content10">
+                                <strong>Experienced<br><span class="stars"><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i></span></strong>
+                            </span>
+                        </div></li>
+                     <!--PHP-->
+
+                    <li><img class="tooltip"  data-tooltip-content="#tooltip_content11" src="img/skills-icon/php-512.png" alt="php"><div class="tooltip_templates">
+                            <span class="text-tip" id="tooltip_content11">
+                                <strong>beginner<br><span class="stars"><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i></span></strong>
+                            </span>
+                        </div></li>
                 </ul> 
                 <ul class="icon-img">
-                    <li><img src="img/skills-icon/11-2-photoshop-logo-png-pic-thumb.png" alt="python"></li>
-                    <li><img src="img/skills-icon/bootstrap-stack.png" alt="c#"></li>
-                    <li><img src="img/skills-icon/Agile2.png" alt="sql"></li>
-                    <li><img src="img/skills-icon/React.js_logo-512.png" alt="php"></li>
+             <!--PHOTOSHOP-->
+
+                    <li><img class="tooltip"  data-tooltip-content="#tooltip_content12" src="img/skills-icon/11-2-photoshop-logo-png-pic-thumb.png" alt="python"><div class="tooltip_templates">
+                            <span class="text-tip" id="tooltip_content12">
+                                <strong>Skilled<br><span class="stars"><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i></span></strong>
+                            </span>
+                        </div></li>
+                    
+                        <!--BOOTSTRAP-->
+
+                    <li><img class="tooltip"  data-tooltip-content="#tooltip_content13" src="img/skills-icon/bootstrap-stack.png" alt="c#"><div class="tooltip_templates">
+                            <span class="text-tip" id="tooltip_content13">
+                                <strong>Skilled<br><span class="stars"><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i></span></strong>
+                            </span>
+                        </div></li>
+                     <!--AGILE-->
+
+                    <li><img class="tooltip"  data-tooltip-content="#tooltip_content14" src="img/skills-icon/Agile2.png" alt="sql"><div class="tooltip_templates">
+                            <span class="text-tip" id="tooltip_content14">
+                                <strong>beginner<br><span class="stars"><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i></span></strong>
+                            </span>
+                        </div></li>
+                    
+                         <!--REACT-->
+
+                    <li><img class="tooltip"  data-tooltip-content="#tooltip_content15" src="img/skills-icon/React.js_logo-512.png" alt="php"><div class="tooltip_templates">
+                            <span class="text-tip" id="tooltip_content15">
+                                <strong>beginner<br><span class="stars"><i class="icon ion-md-star"></i><i class="icon ion-md-star"></i></span></strong>
+                            </span>
+                        </div></li>
                 </ul>
                 
             </div>
@@ -201,10 +296,12 @@
         
     
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
         <script src="js/jquery.js"></script>
         <script src="vendoes/jquery.waypoints.min.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127106469-1"></script>
+        <script src="vendoes/js/tooltipster.bundle.js"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}

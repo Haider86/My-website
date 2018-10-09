@@ -33,7 +33,7 @@
     .resume img {height: 500px;}
     .btn { width: 300px; margin-left: 70px;}
     .footer-section{height: 35vh;}
-    .p-footer{margin: 45px 350px;}
+    .p-footer{margin: 45px 5px; text-align: center;}
     .input-form input,.input-form textarea{ width: 80%;margin: 10px 90px;}
     .btn-massage{margin-left: 350px;}
 
@@ -137,9 +137,9 @@
     
     .bro img{ height: 200px;}
     
-    
+    .section-cv{height: 650px; }
     .resume img { margin-top: 50px;}
-    .btn { width: 180px; margin-left: 166px;margin-top: 420}
+    .btn { width: 210px; margin-left: 0;margin-top: 120px}
     .input-form input,.input-form textarea{ width: 100%;margin: 10px 0px;}
     .btn-massage{margin-left: 120px; width: 150;
     height: 35}
@@ -180,9 +180,9 @@
     
     
     
-    
-    .resume img { margin-top: -450px; margin-left:45px}
-    .btn { width: 180px; margin-left: 85px;margin-top: 410}
+    .section-cv{height: 550px; }
+    .resume img { margin-left:55px}
+    .btn { width: 200px; margin-left: 85px; margin-top: 15px;}
     .input-form input,.input-form textarea{ width: 100%;margin: 10px 0px;}
     .btn-massage{margin-left: 120px; width: 150;
     height: 35}
